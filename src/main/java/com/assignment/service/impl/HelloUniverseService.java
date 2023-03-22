@@ -23,13 +23,13 @@ public class HelloUniverseService implements IMessageService {
 			int no2 = i % 5;
 
 			if (no1 == 0) {
-				output = output + (i + " - Hello") + ", ";
+				output = output + "Hello ";
 			} else if (no2 == 0) {
-				output = output + (i + " - Universe") + ", ";
+				output = output + "Universe ";
 			} else if (no1 == 0 && no2 == 0) {
-				output = output + (i + " - Hello Universe") + ", ";
+				output = output + " Hello Universe ";
 			} else {
-				output = output + i + " - none, ";
+				output = output + i ;
 			}
 		}
 
