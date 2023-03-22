@@ -22,13 +22,13 @@ public class HelloWorldService implements IMessageService {
 			int no2 = i % 5;
 
 			if (no1 == 0) {
-				output = output + (i + " - Hello") + ", ";
+				output = output + "Hello";
 			} else if (no2 == 0) {
-				output = output + (i + " - World") + ", ";
+				output = output + "World";
 			} else if (no1 == 0 && no2 == 0) {
-				output = output + (i + " - Hello World") + ", ";
+				output = output + "Hello World";
 			} else {
-				output = output + i + " - none, ";
+				output = output + i;
 			}
 		}
 
